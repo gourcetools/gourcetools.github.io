@@ -3,23 +3,6 @@ description: gourcetools website
 theme: just-the-docs
 color_scheme: dark
 
-
-callouts:
-  prereqs:
-    title: Prerequisites
-    color: yellow
-  compat:
-    title: Compatibility
-    color: pink
-  warning:
-    title: Warning
-    color: red
-  attention:
-    color: orange
-  note:
-    title: Note
-    color: blue
-
 url: https://gourcetools.github.io
 
 aux_links:
