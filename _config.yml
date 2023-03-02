@@ -1,6 +1,8 @@
 title: gourcetools.github.io
 description: gourcetools website
-theme: just-the-docs-dark
+theme: just-the-docs
+#color_scheme: dark
+
 
 callouts:
   prereqs:
