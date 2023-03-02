@@ -1,7 +1,22 @@
 title: gourcetools.github.io
 description: gourcetools website
 theme: just-the-docs-dark
-color_scheme: ellis-dark
+
+callouts:
+  prereqs:
+    title: Prerequisites
+    color: yellow
+  compat:
+    title: Compatibility
+    color: pink
+  warning:
+    title: Warning
+    color: red
+  attention:
+    color: orange
+  note:
+    title: Note
+    color: blue
 
 url: https://gourcetools.github.io
 
