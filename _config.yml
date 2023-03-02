@@ -1,6 +1,7 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
-theme: just-the-docs
+title: gourcetools.github.io
+description: gourcetools website
+theme: just-the-docs-dark
+color_scheme: ellis-dark
 
 url: https://gourcetools.github.io
 
