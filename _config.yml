@@ -7,3 +7,6 @@ url: https://gourcetools.github.io
 
 aux_links:
   Github: https://github.com/gourcetools/
+  
+include:
+ - .well-known/nostr.json
