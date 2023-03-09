@@ -1,12 +1,7 @@
   {
   	"names": {
   		"gourcetools": "0000005cc4586681ad8e7f4b75436fb7904b0e34ff072bb3406ddb90226d7eab",
-  		"🛠️nostr-commits": "0000005f87f64341c212cc93d6c266c03ae752c02660e78a6da1424f7b05c470",
-  		"🛠️nostr-releases": "0000007538e9fe7b3ee416097063f506dce8a0bfcbbd94605cb25eed3802eed5",
-  		"🛠️bitcoin-commits": "00000073e3532080fce2b8079eb7efe7a62459bbdebb9359c5f2cacc18ee3626",
-  		"🛠️bitcoin-releases": "0000004d0d5d74116b16d251255cfe738342fb245a8a4eee50d0548067f514b8",
-  		"🛠️nostreply": "000006f38f9232c9d631a7f1706f9dd3206c8def727a72529c499e0871a8ccc4",
-  		"🛠️nostr-btc-bot": "00000ddfb4755562644ea140f7716e1cfea5c70efc6856b83547af425b14310f",
+  		"nostr-commits": "0000005f87f64341c212cc93d6c266c03ae752c02660e78a6da1424f7b05c470",
       "facts-bot": "00000d253b974086da25d89360a98af3fb5b2db3586e3c698fdcae3d06a42cd9",
       "water-bot": "000000dd7a2e54c77a521237a516eefb1d41df39047a9c64882d05bc84c9d666",
       "year-progress": "000007cb8d6b535629c584b1332bc9e756927a369cccf4f2859b4eb0c093b66b"
