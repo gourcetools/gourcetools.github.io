@@ -10,3 +10,4 @@ aux_links:
   
 include:
  - .well-known/nostr.json
+ - .public/img/*.*
