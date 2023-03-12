@@ -1,5 +1,5 @@
-title: gourcetools.github.io
-description: gourcetools website
+title: gourcetools
+description: Website for all projects of GourceTools
 theme: just-the-docs
 color_scheme: dark
 
@@ -7,7 +7,10 @@ url: https://gourcetools.github.io
 
 aux_links:
   Github: https://github.com/gourcetools/
+  Tip: https://getalby.com/gourcetools
+
   
 include:
  - .well-known/nostr.json
  - .public/img/*.*
+ - .public/*
