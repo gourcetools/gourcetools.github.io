@@ -4,313 +4,121 @@ title: Spamster
 nav_order: 2
 ---
 
-<button class="btn js-toggle-dark-mode">Preview dark color scheme</button>
+# do not use to do illegal shit
+
+# <b>SPAMSTER</b><br>
+![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
+#
+<img src="https://img.shields.io/badge/Tested%20under-Ubuntu%2022.04.1%20LTS-orange"><br>
+<img src="https://img.shields.io/badge/Tested%20under-W10%20Pro%20WSL%20Ubuntu%2022.04.1%20LTS-blue">
+<br><br>
+<img src="https://img.shields.io/badge/License-MIT-orange.svg"><br>
 
-<script>
-const toggleDarkMode = document.querySelector('.js-toggle-dark-mode');
 
-jtd.addEvent(toggleDarkMode, 'click', function(){
-  if (jtd.getTheme() === 'dark') {
-    jtd.setTheme('light');
-    toggleDarkMode.textContent = 'Preview dark color scheme';
-  } else {
-    jtd.setTheme('dark');
-    toggleDarkMode.textContent = 'Return to the light side';
-  }
-});
-</script>
+# Done:
+- [x] 🧅 Use tor for spamming 
+- [x] 📡 Download relays list
+- [x] 🏓 Ping relays list 
+- [x] 📈 Benchmark relays
+- [x] 🔑 Create accounts for each name in config/name-list.txt 
+- [x] 📁 Create a `nostr.json` with all names and pubkeys. | `NIP-05`
+- [x] 📨 Send the `nostr.json` to `youraccount.github.io/.well-known/nostr.json`
+- [x] ℹ️ Update all accounts informations with `name@domain.tld` | `KIND: 0`
+- [x] ℹ️ Update all accounts informations with username,fixed image of a cat and fixed bio. | `KIND: 0`
+- [x] 🫂 Make all accounts follow each others | `KIND: 3`
+- [x] 📢 Spam public feed in parallel | `KIND: 1`
+- [x] 🧅 Spam public feed using tor in parallel (one exit IP per instance) | `KIND: 1 `
+- [x] ⬆️  Save configuration 
+- [x] ⬇️  Load configuration
+- [x] 🗑 Reset
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+# Todo:
 
-[Link to another page](another-page).
+- [ ] Use tor to get relays list
+- [ ] Use tor to ping relays list
+- [ ] Use tor to benchmark relays list
+- [ ] Use tor to broadcast profile info  | `KIND: 0`
+- [ ] Use tor to broadcast follow list  | `KIND: 3`
+- [ ] Spam in DMs
+- [ ] Spam in channels
+- [ ] Spam `custom KIND`
+- [ ] Spam public channels creation 
+- [ ] Spam recommand relay 
+- [ ] Multi-Spam
+- [ ] React and reply
+- [ ] Reply
+- [ ] Create random names lists with first and last name
+- [ ] Create random bio for each name with OPENAI
+- [ ] React and reply with OPENAI
+- [ ] Change benchmark for something more agressive.
+- [ ] Engagement farm with OPENAI
 
-There should be whitespace between paragraphs.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 
-# [](#header-1)Header 1
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+# Problems:
 
-## [](#header-2)Header 2
+- Tor dont stop on close. So you have to stop all tors manually.
+- As far as i understand, this whole repo could be almost one script with functions, but because i'm really bad at this: its' not.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
 
-### [](#header-3)Header 3
+# <b>🍩 What is Spamster?</b><br>
+<br>
+<b>Spamster is a bash toolbox made for nostr spamming.</b><br>
+Spamster is for testing relays and spam filters.<br>
+<br>
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+# <b>⚙️ Requirements:</b><br>
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
+- `nostr-tool` : https://github.com/0xtrr/nostr-tool
+- `nostril` : https://github.com/jb55/nostril
+- `clust` : https://github.com/vinliao/clust
+- `nostcat` : https://github.com/blakejakopovic/nostcat
 
-#### [](#header-4)Header 4 `with code not transformed`
+as well as: 
+`sed` `jq` `truncante` `awk` `git` `curl`
 
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
 
-##### [](#header-5)Header 5
+<br>
 
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
+# <b>✔️ How to use Spamster?</b><br>
 
-###### [](#header-6)Header 6
+- `git clone https://github.com/gourcetools/spamster`
+- `cd ./spamster`
+- `cd ./config`
+- Edit `message-list.txt` with your messages - one per line.
+- Edit `names-list.txt` and do the same. 
+- For relay if you want to set a custom relay edit `relays-list.txt` 
+- `cd ..`
+- `./SPAMSTER.sh` to open the menu. 
 
-[This is a very long link which wraps and therefore doesn't overflow
-even when it comes at the beginning](.) of the line.
+# For a quick try:<br>
+- Download relay list (D) (skip this if you set a custom relay before)
+- Generate keys (K)
+- Start spamming
 
-- [This is a very long link which wraps and therefore doesn't overflow the line
-  when used first in an item ](.) in a list.
 
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
 
-### There's a horizontal rule below this.
 
-* * *
+ <img src="https://user-images.githubusercontent.com/120996278/217899237-62d0bf25-8417-44c8-9730-7f452d2d7a0b.png" alt="Combined" width="500px">  <br>
+ <img src="https://user-images.githubusercontent.com/120996278/217901199-305644a8-7c8f-4358-9388-614668983900.png" alt="Combined" height="70px">
+ <img src="https://user-images.githubusercontent.com/120996278/217901110-887bfb88-a1ad-4ab7-8e3c-23424afb1eb3.png" alt="Combined" height="70px"> <br>
+ <img src="https://user-images.githubusercontent.com/120996278/217404959-b4d81910-6f8b-404c-a0e2-f5519bdcc391.png" alt="Combined" width="500px"> <br> 
 
-### Here is an unordered list:
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
 
-### And an ordered list:
 
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
 
-### And an ordered list, continued:
 
-1.  Item one
-1.  Item two
 
-Some text
-
-{:style="counter-reset:none"}
-1.  Item three
-1.  Item four
-
-### And an ordered list starting from 42:
-
-{:style="counter-reset:step-counter 41"}
-1.  Item 42
-1.  Item 43
-1.  Item 44
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Nesting an ol in ul in an ol
-
-- level 1 item (ul)
-  1. level 2 item (ol)
-  1. level 2 item (ol)
-    - level 3 item (ul)
-    - level 3 item (ul)
-- level 1 item (ul)
-  1. level 2 item (ol)
-  1. level 2 item (ol)
-    - level 3 item (ul)
-    - level 3 item (ul)
-  1. level 4 item (ol)
-  1. level 4 item (ol)
-    - level 3 item (ul)
-    - level 3 item (ul)
-- level 1 item (ul)
-
-### And a task list
-
-- [ ] Hello, this is a TODO item
-- [ ] Hello, this is another TODO item
-- [x] Goodbye, this item is done
-
-### Nesting task lists
-
-- [ ] level 1 item (task)
-   - [ ] level 2 item (task)
-   - [ ] level 2 item (task)
-- [ ] level 1 item (task)
-- [ ] level 1 item (task)
-
-### Nesting a ul in a task list
-
-- [ ] level 1 item (task)
-   - level 2 item (ul)
-   - level 2 item (ul)
-- [ ] level 1 item (task)
-- [ ] level 1 item (task)
-
-### Nesting a task list in a ul
-
-- level 1 item (ul)
-   - [ ] level 2 item (task)
-   - [ ] level 2 item (task)
-- level 1 item (ul)
-- level 1 item (ul)
-
-### Small image
-
-![](../../assets/images/small-image.jpg)
-
-### Large image
-
-![](../../assets/images/large-image.jpg)
-
-"[Wroclaw University Library digitizing rare archival texts](https://www.flickr.com/photos/97810305@N08/9401451269)" by [j_cadmus](https://www.flickr.com/photos/97810305@N08) is marked with [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/?ref=openverse).
-
-### Labels
-
-I'm a label
-{: .label }
-
-blue
-{: .label .label-blue }
-green
-{: .label .label-green }
-purple
-{: .label .label-purple }
-yellow
-{: .label .label-yellow }
-red
-{: .label .label-red }
-
-**bold**
-{: .label }
-*italic*
-{: .label }
-***bold + italic***
-{: .label }
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-#### Multiple description terms and values
-
-Term
-: Brief description of Term
-
-Longer Term
-: Longer description of Term,
-  possibly more than one line
-
-Term
-: First description of Term,
-  possibly more than one line
-
-: Second description of Term,
-  possibly more than one line
-
-Term1
-Term2
-: Single description of Term1 and Term2,
-  possibly more than one line
-
-Term1
-Term2
-: First description of Term1 and Term2,
-  possibly more than one line
-
-: Second description of Term1 and Term2,
-  possibly more than one line
-
-### More code
-
-```python{% raw %}
-def dump_args(func):
-    "This decorator dumps out the arguments passed to a function before calling it"
-    argnames = func.func_code.co_varnames[:func.func_code.co_argcount]
-    fname = func.func_name
-    def echo_func(*args,**kwargs):
-        print fname, ":", ', '.join(
-            '%s=%r' % entry
-            for entry in zip(argnames,args) + kwargs.items())
-        return func(*args, **kwargs)
-    return echo_func
-
-@dump_args
-def f1(a,b,c):
-    print a + b + c
-
-f1(1, 2, 3)
-
-def precondition(precondition, use_conditions=DEFAULT_ON):
-    return conditions(precondition, None, use_conditions)
-
-def postcondition(postcondition, use_conditions=DEFAULT_ON):
-    return conditions(None, postcondition, use_conditions)
-
-class conditions(object):
-    __slots__ = ('__precondition', '__postcondition')
-
-    def __init__(self, pre, post, use_conditions=DEFAULT_ON):
-        if not use_conditions:
-            pre, post = None, None
-
-        self.__precondition  = pre
-        self.__postcondition = post
-{% endraw %}```
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-### Mermaid Diagrams
-
-The following code is displayed as a diagram only when a `mermaid` key supplied in `_config.yml`.
-
-```mermaid
-graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
-```
-
-
-```
-The final element.
-```
+<br> <br>
+<br>
+# 🙋‍♂️ Need help? <br> 
+ <b>Telegram:</b> https://t.me/bitpaint<br>
+<b>Twitter:</b> https://twitter.com/bitpaintclub<br>
+<b>Nostr:</b><br>
+npub1qqqqqhxytpngrtvw0a9h2sm0k7gykr35lurjhv6qdhdeqgnd064swghgx4<br>
+gourcetools@gourcetools.github.io
+
+
+
