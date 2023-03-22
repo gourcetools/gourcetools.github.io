@@ -4,12 +4,9 @@ title: water-bot
 nav_order: 2
 ---
 
-![image](https://em-content.zobj.net/source/microsoft-teams/337/droplet_1f4a7.png)
-
+![image](https://user-images.githubusercontent.com/120996278/227062678-7963b124-178c-4ccb-8953-f203426a9e62.png)
 
 # water-bot
-
-
 
 ### <b>Nostr:</b> <br>
 #### hex: 
