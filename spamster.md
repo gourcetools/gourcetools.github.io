@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Spamster
+title: spamster
 nav_order: 99
 ---
 
