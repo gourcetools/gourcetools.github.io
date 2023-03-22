@@ -1,9 +1,8 @@
 ---
 layout: default
 title: Spamster
-nav_order: 2
+nav_order: 99
 ---
-# do not use to do illegal shit
 
 # <b>SPAMSTER</b><br>
 ![Shell Script](https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white)
