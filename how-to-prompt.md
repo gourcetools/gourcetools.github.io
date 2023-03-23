@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  A Comprehensive Guide for Creating Effective Coding Prompts for ChatGPT
+title:  proompting
 nav_order: 2
 ---
 
@@ -38,69 +38,84 @@ Example: "ChatGPT, please continue from where we left off in the previous code s
 
 10 Examples of Final Prompts for Coding Tasks:
 ```
-"ChatGPT, help me write a Python function to find the nth Fibonacci number using recursion. The function should take an integer 'n' as input and return the corresponding Fibonacci number."
+"ChatGPT, help me write a Python function to find the nth Fibonacci number using recursion. 
+The function should take an integer 'n' as input and return the corresponding Fibonacci number."
 ```
 
 ```
-"ChatGPT, create a JavaScript function to validate an email address using regular expressions. The function should return 'true' if the email is valid, and 'false' otherwise."
+"ChatGPT, create a JavaScript function to validate an email address using regular expressions. 
+The function should return 'true' if the email is valid, and 'false' otherwise."
 ```
 
 ```
-"ChatGPT, please provide a step-by-step tutorial on implementing a basic REST API using Node.js and Express. Start with setting up the project and creating endpoints for CRUD operations on a 'tasks' resource."
+"ChatGPT, please provide a step-by-step tutorial on implementing a basic REST API using Node.js and Express. 
+Start with setting up the project and creating endpoints for CRUD operations on a 'tasks' resource."
 ```
 
 ```
-"ChatGPT, help me design a SQL query to retrieve the total sales for each product from a 'sales' table, grouped by product ID and ordered by total sales in descending order."
+"ChatGPT, help me design a SQL query to retrieve the total sales for each product from a 'sales' table,
+grouped by product ID and ordered by total sales in descending order."
 ```
 
 ```
-"ChatGPT, create a Java method to check if a given string is a palindrome. The method should return 'true' if the string is a palindrome and 'false' otherwise."
+"ChatGPT, create a Java method to check if a given string is a palindrome. 
+The method should return 'true' if the string is a palindrome and 'false' otherwise."
 ```
 
 ```
-"ChatGPT, assist me in writing a C++ program to perform matrix multiplication. The program should read two matrices from the user, multiply them, and output the resulting matrix."
+"ChatGPT, assist me in writing a C++ program to perform matrix multiplication. 
+The program should read two matrices from the user, multiply them, and output the resulting matrix."
 ```
 
 ```
-"ChatGPT, help me create a Ruby script to scrape data from a website using the Nokogiri gem. The script should extract the titles and URLs of articles from a given news website's homepage."
+"ChatGPT, help me create a Ruby script to scrape data from a website using the Nokogiri gem. 
+The script should extract the titles and URLs of articles from a given news website's homepage."
 ```
 
 ```
-"ChatGPT, write a PHP function to connect to a MySQL database using PDO. The function should take database credentials as input and return a PDO instance if the connection is successful."
+"ChatGPT, write a PHP function to connect to a MySQL database using PDO. 
+The function should take database credentials as input and return a PDO instance if the connection is successful."
 ```
 
 ```
-"ChatGPT, help me implement a simple 'to-do list' app using React. Start with creating a form to add new tasks, and display the list of tasks with checkboxes to mark them as completed."
+"ChatGPT, help me implement a simple 'to-do list' app using React. 
+Start with creating a form to add new tasks, and display the list of tasks with checkboxes to mark them as completed."
 ```
 
 ```
-"ChatGPT, guide me through building a basic neural network in TensorFlow for image classification. Begin with loading and preprocessing the data, then define and train the neural network model."
+"ChatGPT, guide me through building a basic neural network in TensorFlow for image classification. 
+Begin with loading and preprocessing the data, then define and train the neural network model."
 ```
 
 
-# "Provide Clear Instructions" - Elaboration:
+# Elaboration:
 
-When crafting prompts for coding tasks, it's crucial to provide clear instructions to ensure that the generated code accurately addresses the problem at hand. Here are some tips to help you achieve clarity in your instructions:
+When crafting prompts for coding tasks, it's crucial to *provide clear instructions* to ensure that the generated code accurately addresses the problem at hand. Here are some tips to help you achieve clarity in your instructions:
 
 ## Define the problem statement:
-Begin by outlining the problem or task that the code should address. Be specific about the desired outcome, which will help the AI to understand the scope of the task.
+*Begin by outlining the problem* or task that the code should address. 
+*Be specific about the desired outcome*, which will help the AI to understand the scope of the task.
 
 ## Specify input and output:
-Clearly state the expected input and output for the code, including data types, structures, and constraints. This information helps the AI to generate code that meets your requirements.
+Clearly state the expected *input* and *output* for the code, including data types, structures, and constraints. 
+This information helps the AI to generate code that meets *your requirements*.
 
 ## Describe desired behavior:
-Explain any special requirements or desired behavior of the code, such as handling edge cases, performance considerations, or specific algorithms to be used.
+*Explain any special requirements or desired behavior* of the code, such as handling edge cases, performance considerations, or specific algorithms to be used.
 
 ## Provide examples:
-Include examples of input and expected output to help the AI understand the desired functionality more concretely. This can also help to clarify any ambiguities in your instructions.
+Include *examples of input* and *expected output* to help the AI understand the desired functionality more concretely. 
+This can also help to clarify any ambiguities in your instructions.
 
 ## Use precise language:
-Be explicit and precise in your wording to minimize the chances of misinterpretation. Avoid using vague or ambiguous language that might lead to confusion or incorrect code generation.
+Be explicit and precise in your wording to minimize the chances of *misinterpretation*. 
+Avoid using *vague or ambiguous language* that might lead to *confusion* or *incorrect code generation*.
 
 ## Ask for explanations:
-Request explanations, comments, or documentation within the code to ensure that the generated solution is easy to understand and maintain.
+*Request* explanations, comments, or *documentation* within the code to ensure that the generated solution is easy to understand and maintain.
 
-By following these guidelines, you can provide clear instructions that will enable ChatGPT to generate accurate and useful code for your specific tasks. Clear instructions are key to a successful collaboration with the AI and will help you get the most out of your interactions.
+By following these guidelines, you can provide clear instructions that will enable ChatGPT to generate accurate and useful code for your specific tasks.
+*Clear instructions are key* to a successful collaboration with the AI and will help you get the most out of your interactions.
 
 
 
