@@ -1,10 +1,8 @@
 ---
 layout: default
-title: Creating Effective Coding Prompts for ChatGPT: A Comprehensive Guide
+title:  A Comprehensive Guide for Creating Effective Coding Prompts for ChatGPT
 nav_order: 2
 ---
-
-
 
 # Creating Effective Coding Prompts for ChatGPT: A Comprehensive Guide
 
