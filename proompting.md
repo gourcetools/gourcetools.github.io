@@ -99,23 +99,64 @@ When crafting prompts for coding tasks, it's crucial to *provide clear instructi
 *Begin by outlining the problem* or task that the code should address. 
 *Be specific about the desired outcome*, which will help the AI to understand the scope of the task.
 
+```
+Write a Python function to merge two sorted lists into a single sorted list. The function should accept two sorted lists as input and return a new list containing all elements from the input lists in ascending order."
+```
+
+
 ## Specify input and output:
 Clearly state the expected *input* and *output* for the code, including data types, structures, and constraints. 
 This information helps the AI to generate code that meets *your requirements*.
 
+```
+Create a JavaScript function that takes two arrays of integers, 'array1' and 'array2',
+and returns a new array containing the intersection of the two input arrays, 
+i.e., elements that are present in both arrays
+```
+
+
 ## Describe desired behavior:
 *Explain any special requirements or desired behavior* of the code, such as handling edge cases, performance considerations, or specific algorithms to be used.
+
+```
+write a Java method to implement the binary search algorithm on an array of integers.
+The method should accept a sorted array and a target value as input,
+and return the index of the target value if found, or -1 if not found.
+The solution should have a time complexity of O(log n).
+```
+
 
 ## Provide examples:
 Include *examples of input* and *expected output* to help the AI understand the desired functionality more concretely. 
 This can also help to clarify any ambiguities in your instructions.
 
+```
+Create a Python function to convert an integer to its Roman numeral representation.
+For example, if the input is 42, the output should be 'XLII';
+if the input is 1990, the output should be 'MCMXC'.
+The input integer will be between 1 and 3999.
+```
+
+
 ## Use precise language:
 Be explicit and precise in your wording to minimize the chances of *misinterpretation*. 
 Avoid using *vague or ambiguous language* that might lead to *confusion* or *incorrect code generation*.
 
+```
+Write a C++ function to calculate the arithmetic mean of an array of floating-point numbers. The function should accept an array and its length as input, and return the mean value as a floating-point number with a precision of two decimal places.
+```
+
+
 ## Ask for explanations:
-*Request* explanations, comments, or *documentation* within the code to ensure that the generated solution is easy to understand and maintain.
+Request explanations, *comments*, or *documentation* within the code to ensure that the generated solution is easy to understand and maintain.
+
+```
+Please provide comments explaining each part of the code you provide and its purpose.
+```
+
+```
+Please write documentation the API.
+```
 
 By following these guidelines, you can provide clear instructions that will enable ChatGPT to generate accurate and useful code for your specific tasks.
 *Clear instructions are key* to a successful collaboration with the AI and will help you get the most out of your interactions.
