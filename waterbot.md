@@ -1,7 +1,7 @@
 ---
 layout: default
 title: water-bot
-nav_order: 2
+nav_order: 3
 ---
 
 ![image](https://user-images.githubusercontent.com/120996278/227062678-7963b124-178c-4ccb-8953-f203426a9e62.png)
