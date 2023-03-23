@@ -1,6 +1,6 @@
 ---
 layout: default
-title:  proompting
+title: 🧠 proompting
 nav_order: 2
 ---
 
