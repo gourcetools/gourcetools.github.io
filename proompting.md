@@ -6,84 +6,87 @@ nav_order: 2
 
 # Creating Effective Coding Prompts for ChatGPT: A Comprehensive Guide
 
+## Basics of a prompt:
 
-
-## Specify the programming language:
+### Specify the programming language:
 Begin the prompt by explicitly stating the programming language you want to use. This ensures that ChatGPT generates code in the correct language, avoiding potential misunderstandings.
-Example: "ChatGPT, please help me write a Python program..."
+Example: "Please help me write a Python program..."
 
-## Provide clear instructions:
+### Provide clear instructions:
 Clearly describe the task or problem you need help with. Be specific about input, output, and any constraints or conditions that should be met by the solution.
 Example: "...to read a CSV file, process its data, and generate a summary report containing the average, minimum, and maximum values for each column."
 
-## Break down the problem:
+### Break down the problem:
 When working with complex tasks, it can be helpful to break the problem into smaller, more manageable steps. This approach makes it easier for ChatGPT to provide accurate, focused code snippets.
 Example: "First, let's start by writing a function to read the CSV file and store its contents in a data structure."
 
-## Request step-by-step explanations:
+###Request step-by-step explanations:
 Ask for step-by-step explanations or code walkthroughs alongside the generated code. This will help you better understand the logic and flow of the program, and allows for easier troubleshooting if issues arise.
 Example: "Please provide a step-by-step explanation of the code and its functionality."
 
-## Encourage modularity:
+### Encourage modularity:
 Request the code in a modular format, such as functions or classes, that can be easily integrated into an existing codebase. This also facilitates testing and debugging individual components of the solution.
 Example: "Please provide the solution as a series of reusable functions."
 
-## Be mindful of code length:
+### Be mindful of code length:
 When asking for longer code snippets, be aware that the response may be cut off due to character limitations. To mitigate this, consider requesting code in smaller segments, focusing on specific parts of the task.
 Example: "Now that we have the CSV data stored, let's write a function to calculate the average value for each column."
 
-## Requesting code continuation:
+### Requesting code continuation:
 If a response is cut off or you need a continuation, reference the previous response in your new prompt to maintain context.
-Example: "ChatGPT, please continue from where we left off in the previous code snippet for calculating column averages in Python."
+Example: "Please continue from where we left off in the previous code snippet for calculating column averages in Python."
 
-10 Examples of Final Prompts for Coding Tasks:
+
+
+## 10 Examples of Final Prompts for Coding Tasks:
+
 ```
-"ChatGPT, help me write a Python function to find the nth Fibonacci number using recursion. 
+"Celp me write a Python function to find the nth Fibonacci number using recursion. 
 The function should take an integer 'n' as input and return the corresponding Fibonacci number."
 ```
 
 ```
-"ChatGPT, create a JavaScript function to validate an email address using regular expressions. 
+"Create a JavaScript function to validate an email address using regular expressions. 
 The function should return 'true' if the email is valid, and 'false' otherwise."
 ```
 
 ```
-"ChatGPT, please provide a step-by-step tutorial on implementing a basic REST API using Node.js and Express. 
+"Please provide a step-by-step tutorial on implementing a basic REST API using Node.js and Express. 
 Start with setting up the project and creating endpoints for CRUD operations on a 'tasks' resource."
 ```
 
 ```
-"ChatGPT, help me design a SQL query to retrieve the total sales for each product from a 'sales' table,
+"Help me design a SQL query to retrieve the total sales for each product from a 'sales' table,
 grouped by product ID and ordered by total sales in descending order."
 ```
 
 ```
-"ChatGPT, create a Java method to check if a given string is a palindrome. 
+"Create a Java method to check if a given string is a palindrome. 
 The method should return 'true' if the string is a palindrome and 'false' otherwise."
 ```
 
 ```
-"ChatGPT, assist me in writing a C++ program to perform matrix multiplication. 
+"Assist me in writing a C++ program to perform matrix multiplication. 
 The program should read two matrices from the user, multiply them, and output the resulting matrix."
 ```
 
 ```
-"ChatGPT, help me create a Ruby script to scrape data from a website using the Nokogiri gem. 
+"Help me create a Ruby script to scrape data from a website using the Nokogiri gem. 
 The script should extract the titles and URLs of articles from a given news website's homepage."
 ```
 
 ```
-"ChatGPT, write a PHP function to connect to a MySQL database using PDO. 
+"Write a PHP function to connect to a MySQL database using PDO. 
 The function should take database credentials as input and return a PDO instance if the connection is successful."
 ```
 
 ```
-"ChatGPT, help me implement a simple 'to-do list' app using React. 
+"Help me implement a simple 'to-do list' app using React. 
 Start with creating a form to add new tasks, and display the list of tasks with checkboxes to mark them as completed."
 ```
 
 ```
-"ChatGPT, guide me through building a basic neural network in TensorFlow for image classification. 
+"Guide me through building a basic neural network in TensorFlow for image classification. 
 Begin with loading and preprocessing the data, then define and train the neural network model."
 ```
 
