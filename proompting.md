@@ -52,7 +52,9 @@ To ensure that the generated code accurately addresses the problem at hand.
 *Be specific about the desired outcome*, which will help the AI to understand the scope of the task.
 
 ```
-Write a Python function to merge two sorted lists into a single sorted list. The function should accept two sorted lists as input and return a new list containing all elements from the input lists in ascending order."
+Write a Python function to merge two sorted lists into a single sorted list.
+The function should accept two sorted lists as input
+and return a new list containing all elements from the input lists in ascending order."
 ```
 
 
@@ -68,7 +70,8 @@ i.e., elements that are present in both arrays
 
 
 ### Describe desired behavior:
-*Explain any special requirements or desired behavior* of the code, such as handling edge cases, performance considerations, or specific algorithms to be used.
+*Explain any special requirements or desired behavior* of the code,
+such as handling edge cases, performance considerations, or specific algorithms to be used.
 
 ```
 write a Java method to implement the binary search algorithm on an array of integers.
