@@ -6,40 +6,56 @@ nav_order: 2
 
 # Creating Effective Coding Prompts for ChatGPT: A Comprehensive Guide
 
------
+
 
 ## Basics of a prompt:
 
-### Specify the programming language:
+### Specify the programming language (or don't, and let him decide)
 Begin the prompt by explicitly stating the programming language you want to use. This ensures that ChatGPT generates code in the correct language, avoiding potential misunderstandings.
-Example: "Please help me write a Python program..."
+
+``` 
+Please help me write a Python program..."
+``` 
 
 ### Provide clear instructions:
 Clearly describe the task or problem you need help with. Be specific about input, output, and any constraints or conditions that should be met by the solution.
-Example: "...to read a CSV file, process its data, and generate a summary report containing the average, minimum, and maximum values for each column."
+``` 
+...to read a CSV file, process its data, and generate a summary report containing the average, minimum, and maximum values for each column."
+``` 
 
 ### Break down the problem:
 When working with complex tasks, it can be helpful to break the problem into smaller, more manageable steps. This approach makes it easier for ChatGPT to provide accurate, focused code snippets.
-Example: "First, let's start by writing a function to read the CSV file and store its contents in a data structure."
+``` 
+First, let's start by writing a function to read the CSV file and store its contents in a data structure.
+``` 
 
 ###Request step-by-step explanations:
 Ask for step-by-step explanations or code walkthroughs alongside the generated code. This will help you better understand the logic and flow of the program, and allows for easier troubleshooting if issues arise.
-Example: "Please provide a step-by-step explanation of the code and its functionality."
+``` 
+Please provide a step-by-step explanation of the code and its functionality.
+``` 
 
 ### Encourage modularity:
 Request the code in a modular format, such as functions or classes, that can be easily integrated into an existing codebase. This also facilitates testing and debugging individual components of the solution.
-Example: "Please provide the solution as a series of reusable functions."
+```
+Please provide the solution as a series of reusable functions.
+``` 
 
 ### Be mindful of code length:
 When asking for longer code snippets, be aware that the response may be cut off due to character limitations. To mitigate this, consider requesting code in smaller segments, focusing on specific parts of the task.
-Example: "Now that we have the CSV data stored, let's write a function to calculate the average value for each column."
+``` 
+Now that we have the CSV data stored, let's write a function to calculate the average value for each column.
+``` 
 
 ### Requesting code continuation:
 If a response is cut off or you need a continuation, reference the previous response in your new prompt to maintain context.
-Example: "Please continue from where we left off in the previous code snippet for calculating column averages in Python."
+
+``` 
+Please continue from where we left off in the previous code snippet for calculating column averages in Python.
+```
 
 
------
+
 
 ### Elaboration:
 
@@ -98,7 +114,9 @@ Be explicit and precise in your wording to minimize the chances of *misinterpret
 Avoid using *vague or ambiguous language* that might lead to *confusion* or *incorrect code generation*.
 
 ```
-Write a C++ function to calculate the arithmetic mean of an array of floating-point numbers. The function should accept an array and its length as input, and return the mean value as a floating-point number with a precision of two decimal places.
+Write a C++ function to calculate the arithmetic mean of an array of floating-point numbers.
+The function should accept an array and its length as input, 
+and return the mean value as a floating-point number with a precision of two decimal places.
 ```
 
 
