@@ -1,6 +1,6 @@
 ---
 layout: default
-title: water-bot
+title: 💧 water-bot
 nav_order: 3
 ---
 
