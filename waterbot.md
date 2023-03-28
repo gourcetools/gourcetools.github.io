@@ -4,7 +4,7 @@ title: 💧 water-bot
 nav_order: 3
 ---
 
-![image](https://user-images.githubusercontent.com/120996278/227062678-7963b124-178c-4ccb-8953-f203426a9e62.png)
+![image](https://user-images.githubusercontent.com/120996278/228184455-0c188950-4d3d-4faf-8275-0b09746d0598.png)
 
 # water-bot
 
