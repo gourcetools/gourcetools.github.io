@@ -4,7 +4,7 @@ title: 🛩️ elonjet
 nav_order: 4
 ---
 t
-![image](https://user-images.githubusercontent.com/120996278/228183722-15c089c2-6ade-42ed-aa0a-fd8ac3bd186c.png)
+![image](https://user-images.githubusercontent.com/120996278/228188315-1fc5bdfc-75a7-46cd-a7e7-f57f93afef14.png)
 
 # elonjet
 
