@@ -1,10 +1,10 @@
 ---
 layout: default
-title: balajis-bet-countdown
+title: 📅 balajis-bet-countdown
 nav_order: 98
 ---
 
-![image](https://user-images.githubusercontent.com/120996278/227081290-cb45eb3a-5e0f-495d-980c-46d02362122c.png)
+![image](https://user-images.githubusercontent.com/120996278/228183169-7027658b-5d1d-4dc1-8094-a1fea9d3cda4.png)
 
 # balajis-bet-countdown
 
