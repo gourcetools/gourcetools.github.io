@@ -1,9 +1,10 @@
 ---
 layout: default
-title: nostr-commits
+title: 🚀 nostr-commits
 nav_order: 97
 ---
-![image](https://user-images.githubusercontent.com/120996278/227081759-1d413335-ab3a-47c4-860c-70b8aeb93201.png)
+
+![image](https://user-images.githubusercontent.com/120996278/228184214-3c8915f1-9b09-4145-91e9-a537409f356f.png)
 
 # nostr-commits
 
