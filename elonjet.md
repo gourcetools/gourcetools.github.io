@@ -1,9 +1,10 @@
 ---
 layout: default
-title: elonjet
+title: 🛩️ elonjet
 nav_order: 4
 ---
-![image](https://user-images.githubusercontent.com/120996278/227081926-3f5c03dc-938d-4fae-b1bc-8c5eb681722a.png)
+t
+![image](https://user-images.githubusercontent.com/120996278/228183722-15c089c2-6ade-42ed-aa0a-fd8ac3bd186c.png)
 
 # elonjet
 
